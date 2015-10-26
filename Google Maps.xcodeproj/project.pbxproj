@@ -137,23 +137,6 @@
 		817CCC041BDE4F9C00E16D9A = {
 			isa = PBXGroup;
 			children = (
-				817CCC7F1BDE532500E16D9A /* SystemConfiguration.framework */,
-				817CCC7D1BDE531B00E16D9A /* Security.framework */,
-				817CCC7B1BDE531100E16D9A /* QuartzCore.framework */,
-				817CCC791BDE530700E16D9A /* OpenGLES.framework */,
-				817CCC771BDE52FB00E16D9A /* ImageIO.framework */,
-				817CCC751BDE52EE00E16D9A /* GLKit.framework */,
-				817CCC731BDE52E600E16D9A /* CoreText.framework */,
-				817CCC711BDE52DD00E16D9A /* CoreLocation.framework */,
-				817CCC6F1BDE52D400E16D9A /* CoreGraphics.framework */,
-				817CCC6D1BDE52C900E16D9A /* CoreData.framework */,
-				817CCC6B1BDE52C100E16D9A /* CoreBluetooth.framework */,
-				817CCC691BDE52B700E16D9A /* AVFoundation.framework */,
-				817CCC671BDE52AB00E16D9A /* Accelerate.framework */,
-				817CCC651BDE52A000E16D9A /* libobjc.tbd */,
-				817CCC631BDE529100E16D9A /* libc++.tbd */,
-				817CCC611BDE528700E16D9A /* libicucore.tbd */,
-				817CCC5F1BDE527F00E16D9A /* libz.tbd */,
 				817CCC0F1BDE4F9D00E16D9A /* Google Maps */,
 				817CCC291BDE4F9D00E16D9A /* Google MapsTests */,
 				817CCC341BDE4F9D00E16D9A /* Google MapsUITests */,
@@ -241,6 +224,23 @@
 		817CCC591BDE517900E16D9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				817CCC7F1BDE532500E16D9A /* SystemConfiguration.framework */,
+				817CCC7D1BDE531B00E16D9A /* Security.framework */,
+				817CCC7B1BDE531100E16D9A /* QuartzCore.framework */,
+				817CCC791BDE530700E16D9A /* OpenGLES.framework */,
+				817CCC771BDE52FB00E16D9A /* ImageIO.framework */,
+				817CCC751BDE52EE00E16D9A /* GLKit.framework */,
+				817CCC731BDE52E600E16D9A /* CoreText.framework */,
+				817CCC711BDE52DD00E16D9A /* CoreLocation.framework */,
+				817CCC6F1BDE52D400E16D9A /* CoreGraphics.framework */,
+				817CCC6D1BDE52C900E16D9A /* CoreData.framework */,
+				817CCC6B1BDE52C100E16D9A /* CoreBluetooth.framework */,
+				817CCC691BDE52B700E16D9A /* AVFoundation.framework */,
+				817CCC671BDE52AB00E16D9A /* Accelerate.framework */,
+				817CCC651BDE52A000E16D9A /* libobjc.tbd */,
+				817CCC631BDE529100E16D9A /* libc++.tbd */,
+				817CCC611BDE528700E16D9A /* libicucore.tbd */,
+				817CCC5F1BDE527F00E16D9A /* libz.tbd */,
 				817CCC5C1BDE519600E16D9A /* Resources */,
 				817CCC5A1BDE517900E16D9A /* GoogleMaps.framework */,
 			);
