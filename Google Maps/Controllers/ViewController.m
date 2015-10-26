@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <GoogleMaps/GoogleMaps.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-23.641674
+                                                            longitude:-46.728921
+                                                                 zoom:15];
+    GMSMapView *mapView = [GMSMapView mapWithFrame:self.view.bounds camera:camera];
+    
+    
+    [self.view addSubview:mapView];
 }
 
 - (void)didReceiveMemoryWarning {
